@@ -52,7 +52,7 @@ const Header = () => {
       >
         Unleash your creativity with AI. Turn your imagination into visual art in seconds - just type, and watch the magic happen.
       </motion.p>
-      <motion.button onClick={onClickHandler} className='sm:text-lg text-white bg-black w-auto mt-20 px-12 py-2.5 flex items-center gap-2 rounded-full mb-20'
+      <motion.button onClick={onClickHandler} className='sm:text-lg text-white bg-black w-auto mt-20 px-12 py-2.5 flex items-center gap-2 rounded-full'
       whileHover={{scale: 1.05}}
       whileTap={{scale:0.95}}
       initial={{opacity:1}}
